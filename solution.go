@@ -1,7 +1,7 @@
 package solution
 
-import emoji "github.com/kyokomi/emoji/v2"
+import emoji "github.com/kyokomi/emoji"
 
 func GetMessage() string {
-	return emoji.Sprint("Hello :map:!")
+	return emoji.Sprint("Hello :word_map:!")
 }

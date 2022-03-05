@@ -1,16 +1,14 @@
 package solution
 
 import (
-	"fmt"
 	"testing"
 
-	emoji "github.com/kyokomi/emoji/v2"
+	emoji "github.com/kyokomi/emoji"
 )
 
 func TestGetMessage(t *testing.T) {
 	got := GetMessage()
-	fmt.Println(got)
-	want := emoji.Sprint("Hello :map:!")
+	want := emoji.Sprint("Hello :word_map:!")
 
 	if got != want {
 		t.Errorf("got %s want %s", got, want)
